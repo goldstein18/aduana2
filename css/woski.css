@@ -1,0 +1,49 @@
+.woski-container {
+    margin-top:100px!important;
+    margin-bottom:100px !important;
+    margin: 0 auto;
+    width:80%;
+ 
+}
+
+.woski-strong {
+    color:black;
+    font-weight: bold;
+}
+
+.woski-button {
+    background-color: #ff4407;
+    border-radius: 5px;
+    color:white;
+    padding:10px 20px;
+    margin-top:50px;
+}
+
+.woski-equipo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.woski-miembro {
+   
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+
+}
+
+
+
+.woski-miembro img {
+    width:100%;
+    margin-bottom:30px;
+   
+    
+}
+
+.miembro-nombre {
+    font-weight: bold;
+}
