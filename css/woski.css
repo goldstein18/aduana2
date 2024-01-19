@@ -46,7 +46,21 @@
 
 .miembro-nombre {
     font-weight: bold;
+    color:#ff4407;
 }
+
+footer {
+    height:150px !important;
+    background-color:#ff4407;
+
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 600px) {
     /* Estilos CSS aquí */
     .woski-equipo {
@@ -54,7 +68,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       
+        border:2px solid blue;
       
     }
     .woski-miembro {
@@ -76,3 +90,4 @@
     }
 
   }
+  
