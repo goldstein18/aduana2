@@ -56,11 +56,7 @@
     color:#ff4407;
 }
 
-footer {
-    height:150px !important;
-    background-color:#ff4407;
 
-}
 
 .center {
     margin: 0 auto;
@@ -78,6 +74,42 @@ footer {
 .cta button {
     margin-top:20px;
 }
+
+footer {
+    height:150px !important;
+    background-color:#ff4407;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+   
+    text-align: center;
+    margin: 0 auto;
+    align-items:center;
+    justify-content: space-around;
+}
+footer img {
+    width:33%;
+   
+   
+ 
+}
+
+.imgdiv{
+    width: 33%;
+  
+}
+
+footer p {
+    color:white;
+    width: 33%;
+  
+}
+
+.lk-footer {
+   
+    width: 14%;
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -112,6 +144,18 @@ footer {
         margin: 0 auto;
         width:90%;
      
+    }
+    footer {
+        height:150px !important;
+        background-color:#ff4407;
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+       
+        text-align: center;
+        margin: 0 auto;
+        align-items:center;
+        justify-content: space-around;
     }
 
   }
