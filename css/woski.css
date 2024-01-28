@@ -18,6 +18,14 @@
     padding:10px 20px;
     margin-top:50px;
 }
+.woski-button:hover {
+    background-color: white;;
+    border-radius: 5px;
+    color:#ff4407;
+    border:1px solid  #ff4407;
+    padding:10px 20px;
+    
+}
 
 .woski-equipo {
     display:flex;
@@ -25,6 +33,7 @@
     justify-content: space-around;
   
 }
+
 
 .woski-miembro {
    
