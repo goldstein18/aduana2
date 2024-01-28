@@ -32,7 +32,14 @@
     flex-direction: column;
     width: 25%;
     justify-content: center;
+   
 
+}
+
+.lk {
+  
+    width:12% !important;
+    display: inline;
 }
 
 
