@@ -87,7 +87,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border:2px solid blue;
+     
       
     }
     .woski-miembro {
@@ -98,7 +98,13 @@ footer {
         justify-content: center;
         align-items: center;
         align-items: center;
+        text-align: center;
     
+    }
+    .lk {
+        margin-top:10px;
+        width:12% !important;
+        display: inline;
     }
     .woski-container {
         margin-top:100px!important;
