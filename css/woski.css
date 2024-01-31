@@ -249,7 +249,7 @@ footer p {
         padding-top:20px;
         padding-bottom: 20px;
         text-align: left;
-        border: 2px solid blue;
+       
     }
     .mainp {
         padding-top:0;
@@ -257,7 +257,7 @@ footer p {
         margin-bottom:200px;
         font-size: 2rem;
         text-align: left;
-        border: 2px solid red;
+      
         overflow: visible;
     }
 
