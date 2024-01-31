@@ -58,6 +58,7 @@
 			</div>-->
 
 			<p class="frase" style="font-size:2rem; color:white; text-align: center;"><strong>Proving customs journey can be, and will be, transparent.</strong></p>
+			<div class="flecha-bajar" onclick="irASeccion()">&#8595;</div>
 		</div>
 		
 		<!-- Form -->
@@ -131,12 +132,16 @@
 
 	<div class="woski-container">
 		<!--<h1 class="woski-strong">Historia</h1><br><br>-->
-		<h1 style="color:#ff4407; font-family: 'Orbitron' !important;">Somos una startup logtech enfocada en eficientar y transparentar la relación
+		<h1  id="seccionAbajo"class="mainp"style="color:#ff4407; font-family: 'Orbitron' !important;">Somos una startup logtech enfocada en eficientar y transparentar la relación
 			entre los importadores y exportadores del país con sus agentes aduanales,
 			generando ahorros para ambas partes.</h1><br><br>
 
-			<h2 style="font-family: 'Orbitron' !important; color:black;">¿Por qué ADUANAPP?</h2><br><br>
-			<p><!--En México, las aduanas no solo regulan el flujo de bienes y servicios, sino que
+			<h2 style="font-family: 'Orbitron' !important; color:black; font-weight: bold !important;">¿Por qué ADUANAPP?</h2><br><br>
+			<div class="half">
+
+			<img src="/images/foto-half.jpg">
+			<!-- <p>En México, las aduanas no solo regulan el flujo de bienes y servicios, sino que
+
 				también protegen la economía, el medio ambiente y la salud de sus ciudadanos. Al
 				supervisar y controlar lo que entra y sale del país, las aduanas aseguran que las leyes
 				y regulaciones sean respetadas, previniendo la entrada de sustancias ilegales,
@@ -176,35 +181,36 @@
 				<p>En México, las aduanas desempeñan un papel crucial al regular el flujo de bienes, protegiendo la economía, el medio ambiente y la salud. Al supervisar las entradas y salidas, evitan sustancias ilegales y productos falsificados, contribuyendo a la seguridad nacional. Además, recaudan aranceles que financian servicios públicos esenciales y son las venas por las que fluye el comercio exterior del país, donde se concentra más del 80% del PIB.
 
 					No obstante, el ecosistema aduanero enfrenta desafíos, como procesos burocráticos, falta de transparencia y limitaciones en la operación. ADUANAPP surge en 2023 para abordar estas áreas de oportunidad, buscando automatizar y mejorar la eficiencia, transparencia y claridad en el comercio internacional. En su primera fase, se enfocará en remediar áreas de oportundad señaladas por clientes, luego expandirá sus servicios para ofrecer un alcance comercial y operativo 24/365 sin restricciones de horarios, industrias o geografía. Las fases posteriores incluirán servicios integrales como logística, consultoría, aseguramiento de mercancías y un proyecto ambicioso de clasificación arancelaria mediante inteligencia artificial.</p>
+				</div>
 
-				<h1 class="woski-strong" style="font-family: 'Orbitron' !important;">Inversionistas</h1><br><br>
+				<h1 class="woski-strong" style="font-family: 'Orbitron' !important; margin-top:50px !important;">Inversionistas</h1><br><br>
 
-				<p>Conoce el potencial de Aduanapp: <strong style="font-size:1.25rem;">¡Únete como inversionista y sé parte de los visionarios que están redefiniendo el futuro del ecosistema aduanal!</strong></p>
-				<button class="woski-button">Descarga nuestra presentación aquí</button>
+				<p><strong style="font-size:1.25rem;">¡Únete como inversionista y sé parte de los visionarios que están redefiniendo el futuro del ecosistema aduanal!</strong></p>
+				<button id="downloadButton"class="woski-button">Descarga nuestra presentación aquí</button>
 
-				<h1 class="woski-strong" style="font-family: 'Orbitron', sans-serif !important;margin-bottom:50px; margin-top:50px;">Equipo</h1>
+				<h1 class="woski-strong" style="font-family: 'Orbitron', sans-serif !important;margin-bottom:50px; margin-top:100px;">Equipo</h1>
 				<div class="woski-equipo">
 					<div class="woski-miembro">
-						<img src="founders/Barbara.jpg">
+						<img src="founders/Barbara.png">
 						<p class="miembro-nombre">Bárbara Tello</p>
 						<p class="miembro-puesto">Co-Founder & Legal Advisor</p>
 						<a href="https://www.linkedin.com/in/barbara-tello-soberanes/ " target="_blank"><img class="lk"src="/images/linkedin.png"></a>
 
 					</div>
 					<div class="woski-miembro">
-						<img src="founders/Fernando.jpg">
+						<img src="founders/Fernando.png">
 						<p class="miembro-nombre">Fernando García</p>
 						<p class="miembro-puesto">Co-Founder & CFO</p>
 						<a href="https://www.linkedin.com/in/fergarciau/" target="_blank"><img class="lk"src="/images/linkedin.png"></a>
 					</div>
 					<div class="woski-miembro">
-						<img src="founders/Javier.jpg">
+						<img src="founders/Javier.png">
 						<p class="miembro-nombre">Javier Ossio</p>
 						<p class="miembro-puesto">Co-Founder & CTO</p>
 						<a href="https://www.linkedin.com/in/javierossio/" target="_blank"><img class="lk"src="/images/linkedin.png"></a>
 					</div>
 					<div class="woski-miembro">
-						<img src="founders/Julio.jpg">
+						<img src="founders/Julio.png">
 						<p class="miembro-nombre">Julio Cantu</p>
 						<p class="miembro-puesto">Co-Founder & CEO</p>
 						<a href="https://www.linkedin.com/in/julio-cantu-17858387/
@@ -216,21 +222,58 @@
 
 				
 		<p style="font-size:2rem;">¿Te unes al cambio?</p>
-				<button class="woski-button center">¡Contáctanos!</button>
+				<button id="botonArriba" onclick="subirArriba()" class="woski-button center">¡Contáctanos!</button>
 			</div>
 			
 				
 	</div>
 <footer>
 	<img src="/images/footer-logo.png">
-	<p>notificaciones@aduanapp.mx</p>
+	<p id="emailLink">notificaciones@aduanapp.mx</p>
 	<div class="imgdiv">
-	<img class="lk-footer"src="/images/lk-white.png">
+	<img id="lklink" class="lk-footer"src="/images/lk-white.png">
 </div>
 	
 </footer>
 
+<script>
+    // Cuando el usuario se desplace 20px desde la parte superior del documento, muestra el botón
+    window.onscroll = function() {
+        desplazamientoScroll();
+    };
 
+    function desplazamientoScroll() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("botonArriba").style.display = "block";
+        } else {
+            document.getElementById("botonArriba").style.display = "none";
+        }
+    }
+
+    // Cuando el usuario haga clic en el botón, desplázate a la parte superior del documento
+    function subirArriba() {
+        document.body.scrollTop = 0; // Para Safari
+        document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
+    }
+	function irASeccion() {
+    var seccion = document.getElementById("seccionAbajo");
+    seccion.scrollIntoView({behavior: "smooth"});
+}
+document.getElementById('emailLink').addEventListener('click', function() {
+        window.location.href = 'mailto:example@example.com';
+    });
+	document.getElementById('lklink').addEventListener('click', function() {
+        window.location.href = 'https://www.linkedin.com/company/aduanapp/';
+    });
+	document.getElementById('downloadButton').addEventListener('click', function() {
+        var link = document.createElement('a');
+        link.href = 'pitch.pptx.pdf'; // Replace with the path to your PDF file
+        link.download = 'pitch.pptx.pdf'; // Optional: specify a default filename for the downloaded file
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+</script>
 	
 
 <!--===============================================================================================-->	
