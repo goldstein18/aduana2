@@ -264,8 +264,9 @@ document.getElementById('emailLink').addEventListener('click', function() {
         window.location.href = 'mailto:notificaciones@aduanapp.mx';
     });
 	document.getElementById('lklink').addEventListener('click', function() {
-        window.location.href = 'https://www.linkedin.com/company/aduanapp/';
-    });
+    window.open('https://www.linkedin.com/company/aduanapp/', '_blank');
+});
+
 	document.getElementById('downloadButton').addEventListener('click', function() {
         var link = document.createElement('a');
         link.href = 'pitch.pptx.pdf'; // Replace with the path to your PDF file
