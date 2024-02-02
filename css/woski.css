@@ -260,7 +260,7 @@ footer p {
         padding-top:0;
         margin-top: 0;
         /*200*/
-        margin-bottom:80px;
+        margin-bottom:160px;
         font-size: 2rem;
         /*left*/
         text-align: center;
@@ -269,15 +269,4 @@ footer p {
     }
 
   }
-@media only screen 
-  and (device-width: 375px) 
-  and (device-height: 812px) 
-  and (-webkit-device-pixel-ratio: 3) { 
-    /* Estilos aquí */
-
-    .mainp{
-        margin-bottom:120px;
-    }
-}
-
-  
+@
