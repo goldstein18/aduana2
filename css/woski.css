@@ -271,7 +271,7 @@ footer p {
     .tra {
 		position: absolute;
 		color: white !important;
-			background-color:#ff4407;
+			background-color:blue;
 			padding: 15px;
 			border-radius: 10px;
 			cursor: pointer;
