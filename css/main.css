@@ -560,6 +560,28 @@ input.input100 {
     padding-left: 15px;
     padding-right: 15px;
   }
+  /* ADD RESPONSIVNESS TRANS BUTTON */
+
+  .tra {
+		position: absolute;
+		color: white !important;
+			background-color:blue;
+			padding: 15px;
+			border-radius: 10px;
+			cursor: pointer;
+
+            position: absolute;
+            color: white !important;
+           
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            /* Centering */
+            left: 50%;
+            bottom:5%;
+            transform: translate(-50%, -50%);
+        
+		}
 
   .respon2::after {
     top: 100%;
@@ -573,6 +595,8 @@ input.input100 {
     -o-transform: skew(180deg, 8deg);
     transform: skew(180deg, 8deg);
   }
+
+
 
 }
 
