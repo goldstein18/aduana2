@@ -12,16 +12,44 @@
 .tra {
     position: relative; 
     bottom:48%; 
-    left:80%;
+    left:75%; /* It was 80%*/
     color: white !important;
-        background-color: #ff4407;
-        padding: 15px;
+        /*background-color: #ff4407;
+        padding: 15px; */
         border-radius: 10px;
         cursor: pointer;
     
     }
+
+.left-tra {
+    position: relative; 
+    bottom:48%; 
+    left:70%; /* It was 80%*/
+    text-align: center;
+    color: white !important;
+        /*background-color: #ff4407;
+        padding: 15px; */
+        border-radius: 10px;
+        cursor: pointer;
     
-   
+    }
+
+.tra-request {
+	 position: relative; 
+    bottom:48%; 
+    left:70%;
+    color: white !important;
+	text-align:center;
+	cursor:pointer;
+        
+       
+}
+
+
+
+
+    
+  
 
 
 /* FLECHA PULSANTE */
@@ -59,6 +87,7 @@
     width: 100%;
     margin-top:50px !important;
     text-align: center;
+	margin-bottom:30px !important;
 }
 
 .woski-strong {
@@ -289,20 +318,21 @@ footer p {
 		color: white !important;
 			background-color:#ff4407;
         
-			padding: 15px;
+			/*padding: 15px;*/
 			border-radius: 10px;
 			cursor: pointer;
 
             position: absolute;
             color: white !important;
            
-            padding: 15px;
+           
             border-radius: 10px;
             cursor: pointer;
             /* Centering */
             left: 50%;
             bottom:5%;
             transform: translate(-50%, -50%);
+           
         
 		}
 
