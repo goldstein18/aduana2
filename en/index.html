@@ -19,6 +19,14 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/woski.css">
 <!--===============================================================================================-->
+
+<!--SLICK CARROUSEL-->
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+
+<!--SLICK CARROUSEL ENDS-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
@@ -27,7 +35,7 @@
 	<style>
   @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-  .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+		 .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
 	background-color: #ff4407 !important;
 	border:none !important;
   }
@@ -35,10 +43,12 @@
 	background-color: #ff4407 !important;
 	border:none !important;
   }
+	
 </style>
 </head>
 <body>
-	
+
+				  
 	
 	<div class="size1 bg0 where1-parent">
 		<!-- Coutdown -->
@@ -67,13 +77,13 @@
 			<a class="left-tra" href="https://app.aduanapp.mx/create_quotation">Request a quote</a>
 			<div class="dropdown tra">
 				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				  English
+				  Español
 				</button>
 				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				  <a class="dropdown-item" href="https://www.aduanapp.mx">Spanish</a>
+				  <a class="dropdown-item" href="https://aduanapp.mx/en/index.html">Spanish</a> 
+					
 				</div>
 			  </div>
-			<!--<a class="tra" href="https://aduana2.vercel.app">ESPAÑOL</a>-->
 			<p class="frase" style="font-size:2rem; color:white; text-align: center;"><strong>Proving customs journey can be, and will be, transparent.</strong></p>
 				<!--<div class="flecha-bajar" onclick="irASeccion()">&#8595;</div>-->
 			<div class="flecha-bajar" onclick="irASeccion()"><img style="min-width: 50px;" src="/images/aduana-arrow.svg"></div>
@@ -94,24 +104,24 @@
 				<!--	Nuestro sitio web será lanzado<span class="m1-txt2"> pronto</span>, registrate para ser el primero en enterarte  -->
 
 				<form class="contact100-form validate-form" action="https://submit-form.com/SIC8LgWwf">
-					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Enter your name">
+					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Ingresa tu nombre">
 						<input class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Name">
 						<span class="focus-input100"></span>
 					</div>
 
-					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required">
+					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Correo es requerido">
 						<input class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Enter your phone number">
+					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Teléfono">
 						<input class="s2-txt1 placeholder0 input100" type="text" name="telephone" placeholder="Phone number">
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Company">
+					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Empresa">
 						<input class="s2-txt1 placeholder0 input100" type="text" name="empresa" placeholder="Company">
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Message">
+					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Mensaje">
 						<input class="s2-txt1 placeholder0 input100" type="text" name="mensaje" placeholder="Write a message">
 						<span class="focus-input100"></span>
 					</div>
@@ -119,7 +129,7 @@
 						<textarea style="line-height:1.5;"class="s2-txt1 placeholder0 input100" name="mensaje" placeholder="Escribe un mensaje"></textarea>
 						<span class="focus-input100"></span>
 					</div>-->
-					<p style="margin-bottom:20px;">By clicking on "Send message" you accept our <a class="underline" style="color:#ff4407"; href="/documents/privacy.pdf" target="_blank">Terms & Conditions</a> and our <a class="underline" style="color:#ff4407;" href="/documents/terms.pdf" target="_blank">Privacy Policy.</a></p>
+					<p style="margin-bottom:20px;">By clicking on "Send message" you accept our<a class="underline" style="color:#ff4407"; href="/documents/privacy.pdf" target="_blank"> Terms and Conditions</a> and our <a class="underline" style="color:#ff4407;" href="/documents/terms.pdf" target="_blank">Privacy Policy.</a></p>
 
 					<div class="w-full">
 						<button class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04">
@@ -129,7 +139,7 @@
 				</form>
 
 				<p class="s2-txt3 p-t-18">
-					We won't send you any spam.
+					We won't spam you
 				</p>
 			</div>
 
@@ -151,64 +161,86 @@
 
 	<div class="woski-container">
 		<!--<h1 class="woski-strong">Historia</h1><br><br>-->
-		<h1  id="seccionAbajo"class="mainp"style="color:#ff4407;">
-			We are a log tech startup focused on enhancing the efficiency and transparency between importers and exporters and their customs agents, thereby generating savings and new revenue opportunities for all parties involved.
-			</h1>
+		<h1  id="seccionAbajo"class="mainp"style="color:#ff4407;">			We are a log tech startup focused on enhancing the efficiency and transparency between importers and exporters and their customs agents, thereby generating savings and new revenue opportunities for all parties involved.</h1>
 		<p style="text-align:center;color:#ff4407; margin-bottom:50px;">B2B marketplace with embedded finance.</p>
+		<h2 style="font-family: 'Orbitron' !important;color:black; font-weight: bold !important; text-align: center !important;">Nuestro objetivo es transformar la forma de operar mediante una atención personalizada.<br><br>¡Conoce a nuestros clientes!</h2><br><br>
+		<div class="carousel" style="margin-bottom:50px !important; margin-top:100px !important;">
 
-			<h2 style="font-family: 'Orbitron' !important;color:black; font-weight: bold !important;">Why Aduanapp? </h2><br><br>
+			<div><img width="70%" src="images/Arriba/carr1.png" alt="Image 1"></div>
+			<div><img width="70%" src="images/Arriba/carr2.png" alt="Image 2"></div>
+			<div><img width="70%" src="images/Arriba/carr3.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr4.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr5.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr6.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr7.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr8.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr9.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr10.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr11.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr12.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr13.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr14.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr15.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr16.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr17.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr18.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr19.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr20.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr21.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr22.png" alt="Image 3"></div>
+			<div><img width="70%" src="images/Arriba/carr23.png" alt="Image 3"></div>
+			<!-- Add more slides as needed -->
+		  </div>
+
+			<h2 style="font-family: 'Orbitron' !important;color:black; font-weight: bold !important;">¿Por qué ADUANAPP?</h2><br><br>
 			<div class="half">
 
 			<img src="/images/foto-half.jpg">
-			<!-- <p>En México, las aduanas no solo regulan el flujo de bienes y servicios, sino que
+		
+			<p>En México, las aduanas desempeñan un papel crucial al regular el flujo de bienes, protegiendo la economía, el medio ambiente y la salud. Al supervisar las entradas y salidas, evitan sustancias ilegales y productos falsificados, contribuyendo a la seguridad nacional. Además, recaudan aranceles que financian servicios públicos esenciales y son las venas por las que fluye el comercio exterior del país, donde se concentra más del 80% del PIB.
 
-				también protegen la economía, el medio ambiente y la salud de sus ciudadanos. Al
-				supervisar y controlar lo que entra y sale del país, las aduanas aseguran que las leyes
-				y regulaciones sean respetadas, previniendo la entrada de sustancias ilegales,
-				productos falsificados, especies en peligro y enfermedades. Además, al recaudar
-				aranceles, contribuyen significativamente a la economía nacional, financiando
-				servicios públicos esenciales.<br><br>
-				Las aduanas son al mismo tiempo la primer línea de defensa de la soberanía nacional
-				y las venas por las que fluye el comercio exterior del país, donde se suma un gran
-				porcentaje de su PIB, por lo que es fundamental contar con las herramientas y la
-				tecnología necesaria para garantizar la agilidad de su labor y el dinamismo y la
-				transparencia que sus principales operadores, tanto públicos como privados,
-				requieren.<br><br>
-				La historia de las aduanas inicia en la época colonial, pero fue posiblemente alrededor
-				del año 1918 – fecha en que se otorgó la primera patente aduanal - cuando estas
-				empezaron a tomar la forma que hoy conocemos.<br><br>
-				Si bien desde entonces la legislación y operación aduanera se ha mantenido en
-				transformación constante, es una realidad que al día de hoy enfrentamos varias áreas
-				de oportunidad que ya es momento de corregir, como por ejemplo, procesos
-				repetitivos y burocráticos; falta de transparencia, no solo en costos, sino también en la
-				operación; criterios de subjetividad y limitaciones horarias, geográficas y cuantitativas
-				por parte del personal – no siempre especializado – a cargo de la función aduanera
-				que bien podría ser reforzado por medio de tecnología; altos costos operativos y
-				comerciales por parte de las agencias aduanales; procesos largos y no siempre
-				personalizados afectando al importador/exportador; necesidades de financiamiento,
-				etcétera.<br><br>
-				ADUANAPP nace en el año 2023 cuando un visionario reúne a un tecnólogo, un
-				financiero y una abogada convencidos de que la automatización es el paso necesario
-				hacia una operación más eficiente, transparente, clara y con un lenguaje común.<br><br>
-				Durante la primer fase de ADUANAPP, remediaremos las áreas de oportunidad más
-				representativas que nuestros clientes han señalado. En la segunda etapa – ya en
-				marcha - estaremos ofreciendo un mucho mayor alcance comercial y operativo 24/365
-				en una plataforma que ya no se vea limitada en razón de horarios, industrias y
-				
-				geografía. En las fases posteriores ADUANAPP integrará servicios de logística,
-				consultoría, aseguramiento de mercancías, financiamiento y un proyecto muy
-				ambicioso de clasificación arancelaria inmediata, por medio de inteligencia artificial.<br><br></p>-->
-				<p>In Mexico, customs play a pivotal role in safeguarding the economy, environment, and public health as they serve as the vains of the country's foreign trade. However, the customs ecosystem encounters various challenges, ranging from extensive  bureaucratic processes to a lack of transparency and operational handbreaks.
-
-					<br><br>ADUANAPP, a B2B marketplace with embedded finance, was established in 2023 to to make front to these areas of opportunity. Our goal is to streamline and enhance the transparency, and clarity in international trade. Through our initial digital platform, we aspire to extend our services and provide 24/7 commercial and operational support, without being bound by time, industry, or geographic restrictions.</p>
+					<br><br>No obstante, el ecosistema aduanero enfrenta desafíos, como procesos burocráticos, falta de transparencia y limitaciones en la operación. ADUANAPP surge en 2023 para abordar estas áreas de oportunidad, buscando automatizar y mejorar la eficiencia, transparencia y claridad en el comercio internacional. En su primera fase, se enfocará en remediar áreas de oportundad señaladas por clientes, luego expandirá sus servicios para ofrecer un alcance comercial y operativo 24/365 sin restricciones de horarios, industrias o geografía. Las fases posteriores incluirán servicios integrales como logística, consultoría, aseguramiento de mercancías y un proyecto ambicioso de clasificación arancelaria mediante inteligencia artificial.</p>
 				</div>
 
-				<h1 class="woski-strong" style="font-family: 'Orbitron' !important; margin-top:50px !important;">Investors</h1><br><br>
+				<h1 class="woski-strong" style="font-family: 'Orbitron' !important; margin-top:50px !important;">Inversionistas</h1><br><br>
 
-				<p><strong style="font-size:1.25rem;">Join us as an investor to redefine the future of the customs ecosystem together!</strong></p>
-				<button id="downloadButton"class="woski-button">Download our presentation here</button>
+				<p><strong style="font-size:1.25rem;">¡Únete como inversionista y sé parte de la redefinición del futuro del ecosistema aduanal!</strong></p>
+				<button id="downloadButton"class="woski-button">Descarga nuestra presentación aquí</button>
 
-				<h1 class="woski-strong" style="font-family: 'Orbitron', sans-serif !important;margin-bottom:50px; margin-top:100px;">Team</h1>
+				<h2 style="font-family: 'Orbitron' !important;color:black; font-weight: bold !important; text-align: center !important; margin-top: 100px;">Junto con nuestros aliados estratégicos<br><br>transformamos el futuro e impulsamos la innovación del comercio exterior</h2><br><br>
+				<div class="carousel" style="margin-bottom:50px !important; margin-top:100px !important;">
+
+					<div><img width="70%" src="images/Abajo/carr1.png" alt="Image 1"></div>
+					<div><img width="70%" src="images/Abajo/carr2.png" alt="Image 2"></div>
+					<div><img width="70%" src="images/Abajo/carr3.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr4.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr5.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr6.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr7.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr8.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr9.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr10.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr11.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr12.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr13.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr14.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr15.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr16.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr17.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr18.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr19.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr20.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr21.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr22.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr23.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr24.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr25.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr26.png" alt="Image 3"></div>
+					<div><img width="70%" src="images/Abajo/carr27.png" alt="Image 3"></div>
+					<!-- Add more slides as needed -->
+				  </div>
+
+				<h1 class="woski-strong" style="font-family: 'Orbitron', sans-serif !important;margin-bottom:50px; margin-top:100px;">Equipo</h1>
 				<div class="woski-equipo">
 					<!--<div class="woski-miembro">
 						<img src="founders/Barbara.png">
@@ -222,17 +254,17 @@
 						<p class="miembro-nombre">Fernando García</p>
 						<p class="miembro-puesto">Co-Founder & CFO</p>
 						<a href="https://www.linkedin.com/in/fergarciau/" target="_blank"><img class="lk"src="/images/linkedin.png"></a>
-					</div>-->
+					</div> -->
 					<div class="woski-miembro">
 						<img src="founders/Javier.png">
 						<p class="miembro-nombre">Javier Ossio</p>
-						<p class="miembro-puesto">Co-Founder & CTO</p>
+						<p class="miembro-puesto">Cofundador & CTO</p>
 						<a href="https://www.linkedin.com/in/javierossio/" target="_blank"><img class="lk"src="/images/linkedin.png"></a>
 					</div>
 					<div class="woski-miembro">
 						<img src="founders/Julio.png">
 						<p class="miembro-nombre">Julio Cantu</p>
-						<p class="miembro-puesto">Co-Founder & CEO</p>
+						<p class="miembro-puesto">Cofundador & CEO</p>
 						<a href="https://www.linkedin.com/in/julio-cantu-17858387/
 						" target="_blank"><img class="lk"src="/images/linkedin.png"></a>
 					</div>
@@ -241,8 +273,8 @@
 				<div class="cta">
 
 				
-		<p style="font-size:2rem;">Be part of the change!</p>
-				<button id="botonArriba" onclick="subirArriba()" class="woski-button center">Contact us!</button>
+		<p style="font-size:2rem;">¿Te unes al cambio?</p>
+				<button id="botonArriba" onclick="subirArriba()" class="woski-button center">¡Contáctanos!</button>
 			</div>
 			
 				
@@ -334,5 +366,45 @@ document.getElementById('emailLink').addEventListener('click', function() {
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
+	<!--SLICK CARROUSEL JS-->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+
+		<!--SLICK CARROUSEL JS ENDS-->
+
+		<script>
+		$(document).ready(function(){
+  $('.carousel').slick({
+    slidesToShow: 5, // Number of items to show at a time
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    // Add more options as needed
+    responsive: [{
+
+			breakpoint: 1024,
+			settings: {
+			slidesToShow: 3,
+			infinite: true
+}
+
+},
+	
+      {
+        breakpoint: 768, // Breakpoint for smaller screens
+        settings: {
+          slidesToShow: 2 // Adjust the number of items for smaller screens
+        }
+      },
+      {
+        breakpoint: 480, // Breakpoint for even smaller screens
+        settings: {
+          slidesToShow: 3 // Adjust the number of items for even smaller screens
+		  
+        }
+      }
+    ]
+  });
+});
+		</script>
 </body>
 </html>
