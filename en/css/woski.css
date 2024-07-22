@@ -11,15 +11,15 @@
 
 .tra {
     position: absolute; 
-    bottom:80%; 
-    left:35%; /* It was 80%*/
+    bottom: 80%; 
+    left: 35%; /* This was previously 80% */
     color: white !important;
-        /*background-color: #ff4407;
-        padding: 15px; */
-        border-radius: 10px;
-        cursor: pointer;
-    
-    }
+    /* If you want to use these properties, uncomment them */
+    /*background-color: #ff4407;
+    padding: 15px; */
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 .left-tra {
     position: relative; 
