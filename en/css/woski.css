@@ -11,8 +11,8 @@
 
 .tra {
     position: relative; 
-    bottom:48%; 
-    left:75%; /* It was 80%*/
+    bottom:80%; 
+    left:35%; /* It was 80%*/
     color: white !important;
         /*background-color: #ff4407;
         padding: 15px; */
@@ -74,7 +74,7 @@
 }
 
 #seccionAbajo {
-    height: 200px; /* Altura de ejemplo era 200 */
+    height: auto; /* Altura de ejemplo era 200 */
   
 }
 
