@@ -10,7 +10,7 @@
 /* ADD BUTTON NORMAL SIZES */
 
 .tra {
-    position: relative; 
+    position: absolute; 
     bottom:80%; 
     left:35%; /* It was 80%*/
     color: white !important;
